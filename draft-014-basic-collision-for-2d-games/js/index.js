@@ -28,7 +28,7 @@ const helper = {
         let smallestElement = null;
 
         if (arr.length > 0) {
-            for (let i = 0; i < arr.length; i++) {
+            for (let i = 0; i < arr.length; i++) {  
                 if (!smallestElement) {
                     smallestElement = arr[i];
                 } else if (arr[i] < smallestElement) {
